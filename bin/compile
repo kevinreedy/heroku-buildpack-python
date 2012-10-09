@@ -206,7 +206,7 @@ fi
 
 # Remove a package that is giving me trouble
 echo "HACKS FOR KEVIN"
-pip install --upgrade django-allauth==0.7.0 | indent
+rm -rf lib/python2.7/site-packages/django_allauth-0.7.0-py2.7.egg-info
 
 # Install dependencies with Pip.
 puts-step "Installing dependencies using pip version $(pip --version | awk '{print $2}')"
