@@ -207,6 +207,7 @@ fi
 # Remove a package that is giving me trouble
 echo "HACKS FOR KEVIN"
 rm -rf lib/python2.7/site-packages/allauth
+pip install django-allauth==0.7.0
 
 # Install dependencies with Pip.
 puts-step "Installing dependencies using pip version $(pip --version | awk '{print $2}')"
